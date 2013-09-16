@@ -292,6 +292,9 @@ GRP Contract Form のサマリーをここに。
 
 
 ###License
+
+YCAMのプロジェクトではじめてApache License 2.0を採用した。
+
 Software Code / Apache License 2.0
 
 ###Website
@@ -348,6 +351,8 @@ https://docs.google.com/a/ycam.jp/document/d/13jNm0TxUS6qFeJoJ4YNaxVxjHLj1aw5Zi4
 ---
 ##EyeWriter 2.0 のつくりかた (2012)
 ###License
+
+YCAMのプロジェクトではじめてCC BY-SAを採用した。
 
 マニュアル / CC BY-SA
 
