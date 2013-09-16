@@ -28,7 +28,7 @@ GRP Contract Form is licensed under a <a rel="license" href="http://creativecomm
 ```
 
 ---
-#CC0ライセンス付与のしかた
+#CC0ライセンス適用のしかた
 1.Creative Commonsのウェブサイトでライセンス・コード生成する
 
 必要に応じてアレンジします。
