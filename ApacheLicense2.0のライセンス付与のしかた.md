@@ -1,4 +1,4 @@
-ApacheLicense2.0のライセンス付与のしかた
+#ApacheLicense2.0のライセンス付与のしかた
 
 
 方法について示した既存の文書が、ふたつあります。
@@ -8,25 +8,20 @@ B.apacheサーバーのコードそのもののディストリビューション
 
 本来はAに従うだけで良いはずですが、読んでみたところ、どうも不十分です。
 なので、実際にapacheで配布されているファイルを参照しつつ、両者を併せたより適切であろうと思われる方法を作ってみました。
-apacheの適用方法が、いろいろなウェブサイトでコメントとして書かれていますが、結構怪しいものがあるので注意。
+Apache Licenseの適用方法が、いろいろなウェブサイトでコメントとして書かれていますが、怪しい(=有効性に疑問がある)ものがあるので注意。
 
 
 
-
-
-ApacheLicense2.0のライセンス付与のしかた
-
-
-1.以下のテキストをソースコードなどに示すこと
+##1.以下のテキストをソースコードなどに示す
 
 ソースコードファイルが複数ある場合は、全てのファイルのコードの冒頭に記載します。
-NOTICEファイルがある場合(たぶんあるでしょう)、NOTICEファイルにも記載します。
+NOTICEファイルやREADMEファイルがある場合(たぶんあるでしょう)、これにも記載します。
 
 ウェブサイト、たとえばgithubのREADMEに記載するのは、見えやすくて良いかと思います。
-しかし、ライセンスの対象が明確でないので、有効性については疑問です。(ex.いまのDurationのライセンス状況)
-あくまで参考、補助的な表記として掲載するのが良いでしょう。(実質的なライセンス効力があるのは、ソースコードの冒頭に記載されたものである、と思った方が良いかと。)
+しかし、ライセンスの対象が明確でないので、有効性は疑問です。
+あくまで参考、補助的な表記として掲載するのが良いでしょう。実質的なライセンス効力があるのは、ソースコードの冒頭に記載されたものである、と考えるべきででしょう。
 
----
+```
    Copyright [yyyy] [name of copyright owner]
 
    Licensed under the Apache License, Version 2.0 (the "License");
@@ -40,25 +35,29 @@ NOTICEファイルがある場合(たぶんあるでしょう)、NOTICEファイ
    WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
    See the License for the specific language governing permissions and
    limitations under the License.
----
+```
 
 
 
-2.LICENSEファイルを同梱すること
+
+##2.LICENSEファイルを同梱する
 
 配布するファイルが入ったフォルダの、最上位階層(トップディレクトリ)に、以下のファイルをいれること。
  
 ファイル名 : "LICENSE"
-内容 : "http://www.apache.org/licenses/LICENSE-2.0.txt"に表示されているテキスト(全文を文末に貼付けます。)
+
+内容 : "http://www.apache.org/licenses/LICENSE-2.0.txt"に表示されているテキスト(注:全文を文末に貼付けます。)
 
 注：拡張子はtxtあたりでよいでしょう。
 
 
 
+---
 
 
-参考1:Apache Licenseの適用の仕方 (ライセンス原文の末尾にあります。)
 
+##参考1:Apache Licenseの適用の方法 (ライセンス原文末尾部分より引用)
+```
 (英文)
    APPENDIX: How to apply the Apache License to your work.
 
@@ -77,7 +76,7 @@ NOTICEファイルがある場合(たぶんあるでしょう)、NOTICEファイ
    you may not use this file except in compliance with the License.
    You may obtain a copy of the License at
 
-       http://www.apache.org/licenses/LICENSE-2.0
+       http://www.apache.org/licenses/LICENSE-2.0       
 
    Unless required by applicable law or agreed to in writing, software
    distributed under the License is distributed on an "AS IS" BASIS,
@@ -96,14 +95,15 @@ Copyright [yyyy] [著作権所有者の名前]
 Apache License Version 2.0（「本ライセンス」）に基づいてライセンスされます。あなたがこのファイルを使用するためには、本ライセンスに従わなければなりません。本ライセンスのコピーは下記の場所から入手できます。
 
 http://www.apache.org/licenses/LICENSE-2.0
+
 適用される法律または書面での同意によって命じられない限り、本ライセンスに基づいて頒布されるソフトウェアは、明示黙示を問わず、いかなる保証も条件もなしに「現状のまま」頒布されます。本ライセンスでの権利と制限を規定した文言については、本ライセンスを参照してください。
+```
 
 
 
 
-
-参考2: ApacheライセンスをApacheサーバのコードに付与するとき
----
+##参考2: ApacheライセンスをApacheサーバのコードに付与するとき
+```
 Applying the Apache License, Version 2.0
 http://www.apache.org/dev/apply-license.html
 
@@ -118,16 +118,18 @@ into a file called LICENSE in the top directory of your distribution. If the dis
 In addition, a correct NOTICE file MUST be included in the same directory as the LICENSE file.
 
 Each original source document (code and documentation, but excluding the LICENSE and NOTICE files SHOULD include a short license header at the top. If the distribution contains documents not covered by CLA, CCLA or Software Grant (such as third-party libraries) then see the policy guide.
----
+```
 
 
 
 
 
 
-LICENSE(テキストファイル)にはりつけるテキストです。
+
+
+注:LICENSE(テキストファイル)にはりつけるテキスト
 ------
-
+```
 
                                  Apache License
                            Version 2.0, January 2004
@@ -332,13 +334,7 @@ LICENSE(テキストファイル)にはりつけるテキストです。
    limitations under the License.
 
 
-
-#
-
-
-
-
----
+```
 
   
   

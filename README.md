@@ -1,19 +1,17 @@
+---
 #Guideline_for_Procedure_of_Open_Project
 ```
 Currently Japanese Only
 ```
 
-###Project Outline
+##Project Outline
 
-プロジェクトの成果をオープン化する際の手続等を示すガイドラインです。
+このドキュメントは、プロジェクトの成果をオープン化する際の手続等を示すガイドラインです。オープン化についての調査、研究の過程で得た知見のアーカイブでもあります。
 
 
-##Instruction
+##Instruction / Structure
 
-構成
-
-プロセスの時期を大きく3つに分けています。
-
+プロセスの時期を大きく3つに分けて、このガイドラインもそれぞれに併せています。
 
 
 ###Pre-Production
@@ -30,14 +28,22 @@ Currently Japanese Only
 
 
 
+---
+##Apendix
 
+ApacheLicense2.0のライセンス付与のしかた
 
+ApacheLicense2.0採用の理由
 
-  
-  
+Creative Commons Licenseの付与のしかた
+
+xivelyでのCC0の付与のしかた  
     
-      
-#Reference
+公開ウェブサイト構築のガイドライン
+
+
+---   
+##Reference
 
 
 ###Guide、Commentary
@@ -53,6 +59,9 @@ Currently Japanese Only
 
 
 ###Project
+
+London
+
 
 
 ###organization
