@@ -1,14 +1,47 @@
 
 ---
 #CCライセンス付与のしかた
-CCのウェブサイトで生成する。
+1.Creative Commonsのウェブサイトでライセンス・コード生成する
+
+必要に応じてアレンジします。
+生成したライセンスコードには、検索エンジンが認識できるメタデータが埋め込まれています。
+和文ページと英文ページとを制作する場合、それぞれに用いる和文版ライセンス・コード、英文版ライセンス・コードを埋め込むのがベストです。
+しかし、和文のウェブサイトに英文のライセンスコードを用いても大きな問題ありませんので、作成するライセンス•コードは英文のみでかまいません。
+
+http://creativecommons.org/choose/
+
+2.生成したライセンス・コードをコンテントを掲載したウェブサイトに埋め込む
+
+
+メタデータの例
+(GRPContractFormでもちいたCC0のメタデータ)
+
+
+```
+<a rel="license" href="http://creativecommons.org/licenses/by-sa/3.0/"><img alt="Creative Commons License" style="border-width:0" src="http://i.creativecommons.org/l/by-sa/3.0/88x31.png" /></a><br /> 
+<span xmlns:dct="http://purl.org/dc/terms/" href="http://purl.org/dc/dcmitype/Text" property="dct:title" rel="dct:type">GRP Contract Form</span><a xmlns:cc="http://creativecommons.org/ns#" href="http://interlab.ycam.jp/projects/grp-contract-form" property="cc:attributionName" rel="cc:attributionURL">  
+Produced by the Yamaguchi Center for Arts and Media [YCAM],<br />
+Planned and developed by YCAM InterLab,<br />
+Supervised by Tasuku Mizuno (Creative Commons Japan, Attorney at Law),<br />
+Supported by Dominick Chen (Creative Commons Japan)<br /></a>
+GRP Contract Form is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-sa/3.0/">Creative Commons Attribution - ShareAlike 3.0 Unported License.<br />
+```
 
 ---
 #CC0ライセンス付与のしかた
+1.Creative Commonsのウェブサイトでライセンス・コード生成する
 
-メタデータの例
+必要に応じてアレンジします。
+生成したライセンスコードには、検索エンジンが認識できるメタデータが埋め込まれています。
+和文ページと英文ページとを制作する場合、それぞれに用いる和文版ライセンス・コード、英文版ライセンス・コードを埋め込むのがベストです。
+しかし、和文のウェブサイトに英文のライセンスコードを用いても大きな問題ありませんので、作成するライセンス•コードは英文のみでかまいません。
 
-(ForestSymphony apiによるデータ取得ページでもちいるCC0のメタデータ)
+http://creativecommons.org/choose/zero/
+
+2.生成したライセンス・コードをコンテントを掲載したウェブサイトに埋め込む。
+
+
+メタデータの例(ForestSymphony apiによるデータ取得ページでもちいたCC0のメタデータ)
 
 
 ```
@@ -32,6 +65,111 @@ CCのウェブサイトで生成する。
 >      content="jp" about="http://interlab.ycam.jp">
 >  japan</span>.
 ></p>
+```
+
+
+---
+#xivelyにおけるCC0の適用のしかた
+
+xivelyにおいて、デバイス、データをpublicに設定した場合、CC0が適用される。
+データにCC0が適用されていることは、xivelyから送られるデータのヘッダに表示されているが、一般ユーザはこれを通常見ることはない。
+よって、デバイス、データをpublicにした上で、データの詳細を表示するページに、そのデータにCC0が適用されていることを記述する。
+
+
+###xivelyでデータを公開する方法、データをpublicにする方法
+
+```
+デバイスのメタデータ編集画面で、publicを選択する。
+```
+
+
+
+
+###xivelyの各データのページにCC0を表記する
+
+
+xivelyのメタデータにCC0が適用されていることを記述します。
+
+xivelyにログオンして、"Develop"を選び、目的のデバイスを選び、画面左下の"メタデータ"を編集し、CC0を適用していること示します。
+
+(htmlのコードを埋め込むのがベストなのですが、XivelyのDescriptionはhtmlを受け付けないため、プレーンテキスト版を作ってみました。)
+
+
+メタデータの例(Forest Symphonyにおいて、樹木の生体電位データのメタデータ用に作成したテキスト)
+
+```
+Metadata
+
+Description
+CC0 1.0 Universal [http://creativecommons.org/publicdomain/zero/1.0/]
+To the extent possible under law, YCAM InterLab has waived all
+copyright and related or neighboring rights to bioelectric potential
+data from trees in 'Forest Symphony'. This work is published from:
+Japan.
+For more detail, please refer to our website.
+
+Creator
+YCAM InterLab
+
+Website
+http://interlab.ycam.jp/en/projects/forestsymphony
+
+```
+
+
+###参考
+
+######xivelyから送られるのデータのヘッダを確認する方法
+
+```
+xivelyのサポート曰く、"On each outgoing request via our API we send a header
+called “X-License” which points to the license for the data."。
+
+
+firefoxのaddon”livehttpheaders”を用いて確認する。
+
+これで、例えば以下を確認。
+API Endpoint
+https://api.xively.com/v2/feeds/176655154
+
+CC0の表記を確認できる。
+```
+
+######xivelyではCC0を採用した (2013)
+デバイス、データをpublicにした場合、CC0が採用される。
+
+```
+xively Public and Private Feeds
+https://xively.com/dev/docs/api/security/public_and_private_feeds/
+“When a device is public, the device and its data are made available under the terms of the Creative Commons CC0 1.0 Universal license.”
+
+xively Accounts, data, devices: An explanation
+http://blog.xively.com/2013/05/15/accounts-data-devices-an-explanation/
+“So, in Xively, if you make data public a Creative Commons CC0 1.0 Universal license is applied (both on its page and in headers when requested via the API), which expresses your ownership of your data but your desire to make it much more useful and usable to others that might access the data. Read more about CC0 here.”
+
+Public and Private Feeds
+https://xively.com/dev/docs/api/security/public_and_private_feeds/
+Your data is your data. For full details please see the LogMeIn Terms of Service.
+You can specify whether or not a Feed is private to you or publicly available to others, by configuring the privacy settings using the “private” attribute of the Feed.
+When a device is private, the device and its data are only accessible to you and those to whom you selectively grant access. A private device is not listed in Xively’s online public directory.
+When a device is public, the device and its data are made available under the terms of the Creative Commons CC0 1.0 Universal license. For detailed information, visit the Creative Commons website, http://creativecommons.org/publicdomain/zero/1.0/, but briefly this means that all data about and created by a public device can be copied, shared and modified by anyone, even for commercial gain. Public devices will be listed in Xively’s online public directory.
+
+
+```
+
+######xivelyに対するCC0についての問い合わせに対する返信 (抜粋)
+
+```
+Subject: concerned in data of Public Device under CC0
+JUL 31, 2013  |  03:50PM BST
+
+Putting the information in the description would work. All public
+devices on Xively have their data licensed under the CC0 1.0 license
+(http://creativecommons.org/publicdomain/zero/1.0/). On each outgoing
+request via our API we send a header called “X-License” which points
+to the license for the data.
+
+
 ```
   
 ---  
