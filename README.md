@@ -11,29 +11,27 @@ Currently Japanese Only
 
 ##Instruction / Structure
 
-プロセスの時期を大きく3つに分けて、このガイドラインもそれぞれに併せています。
 
+##Main Document
 
-###Pre-Production
+研究•開発プロセスの時期を大きく3つに分けて、このガイドラインもそれぞれにあわせ、3章で構成されています。
+
+######Pre-Production
 
 企画立案など
 
-###Produciton
+######Produciton
 
 制作など
 
-###Post-Produciton
+######Post-Produciton
 
 ウェブサイト構築など
 
 
+##Appendix
 
----
-##Apendix
-
-ApacheLicense2.0のライセンス付与のしかた
-
-ApacheLicense2.0採用の理由
+ApacheLicense2.0採用の理由/ライセンス付与のしかた
 
 Creative Commons Licenseの付与のしかた
 
@@ -49,9 +47,9 @@ xivelyでのCC0の付与のしかた
 ###Guide、Commentary
 
 
-####フリーカルチャーをつくるためのガイドブック
+######フリーカルチャーをつくるためのガイドブック
 
-####オープンソースの育て方
+######オープンソースの育て方
 
 
 
@@ -60,26 +58,25 @@ xivelyでのCC0の付与のしかた
 
 ###Project
 
-London
+open source project in London
 
 
 
 ###organization
 
-EyeBeam
+######EyeBeam
 
 
 
 
 
-
-  
+---
 ##Licenses and Credits  
 
 <a rel="license" href="http://creativecommons.org/licenses/by-sa/3.0/"><img alt="Creative Commons License" style="border-width:0" src="http://i.creativecommons.org/l/by-sa/3.0/88x31.png" /></a><br /> 
-<span xmlns:dct="http://purl.org/dc/terms/" href="http://purl.org/dc/dcmitype/Text" property="dct:title" rel="dct:type">iR_Servo_Remote_Control_with_Arduino</span><a xmlns:cc="http://creativecommons.org/ns#" href="https://github.com/yosukesakai/iR_Servo_Remote_Control_with_Arduino" property="cc:attributionName" rel="cc:attributionURL">  
+<span xmlns:dct="http://purl.org/dc/terms/" href="http://purl.org/dc/dcmitype/Text" property="dct:title" rel="dct:type">Guideline_for_Procedure_of_Open_Project</span><a xmlns:cc="http://creativecommons.org/ns#" href="https://github.com/yosukesakai/Guideline_for_Procedure_of_Open_Project" property="cc:attributionName" rel="cc:attributionURL">  
 Produced by yosukesakai<br /></a>
-iR_Servo_Remote_Control_with_Arduino (documentation, photo, stl file except codes) is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-sa/3.0/">Creative Commons Attribution - ShareAlike 3.0 Unported License.<br />
+Guideline_for_Procedure_of_Open_Project (document except citation) is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-sa/3.0/">Creative Commons Attribution - ShareAlike 3.0 Unported License.<br />
 
 
 
