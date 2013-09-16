@@ -1,5 +1,5 @@
 ---
-#Guideline_for_Procedure_of_Open_Project
+#Guideline for Procedure of Open Project
 ```
 Currently Japanese Only
 ```
