@@ -17,6 +17,8 @@
 ###License
 特徴: ハードウェア設計情報(CC BY-SA)、ソフトウェア・コード(ApacheLicense2.0)の公開に加えて、生体電位データ(CC0)の公開を行った。CC0の採用はYCAM初であり、また、アートプロジェクトにおける採用は類を見ない。
 
+注:設計情報の一部がpdf形式であるため、OSHW Defenitionには適合しない。
+
 ######[ハードウェア制作情報]
 
 基板の設計図(pdf) / CC BY-SA
@@ -50,66 +52,16 @@ http://interlab.ycam.jp/projects/forestsymphony
 
 
 ###Summary
-
-注:OSHW Defenitionには適合しない。
-
-生体電位データにCC0を採用した。
-
-
-
-
 ```
-
-ユーザが、自ら制作したハードウェアを樹木に取り付け、その結果得られた生体電位データをoFやProcessingなどで取り扱う基礎的なソフトウェアを含みます。
-(もしかすると、生体電位データをもとに、シンプルなグラフを描くような簡単なヴィジュアライゼーションを行うサンプル・コードは含む事になるかもしれません。)
+木の生体電位データ取得するためのハードウェアの設計情報が公開されています。これはArduinoと組み合わせて使うもので、ハードウェア全体を制御するため、Arduino用のスケッチも併せて公開されます。
+ユーザが、自ら制作したハードウェアを樹木に取り付け、その結果得られた生体電位データを、oFやProcessingなどで取り扱う基礎的なソフトウェア(oF、Processing用のサンプルコード)も公開します。
 ですので、ユーザーは、生体電位データをもとにした作品を作り出す環境を手に入れる事ができる、といえます。
-なお、"制御ソフトウェア"としたのは、Arduino用のスケッチ(ソフトウェア•コード)のことです。
-
-
-原則として、著作物であるコンテンツについてCC BY-SA、ソフトウェア・コードにはApache License
-2.0を付そうと考えています(YCAMでの定番パターンです)。
-データについて、以下の理由でCC0を付与しようと考えています(CC0はこれまで使った事がなかったライセンスです、ドミニク君に少し相談した事はありますが、、)。
-
-CC0は著作権にもとづいて最大限の許諾を行うライセンスである。
-原則として、そもそもデータには著作権は発生しない。
-なので、著作権にもとづくライセンスは、データに対しては、法的に有効とは言い切れない。
-しかし、CC0を付すことで、第三者が自由に利用できる、ということを明示することができる。
-さらに、アートにおける利用事例として、訴求力を生むことができるかもしれない。(もしかしてアート分野初?)
-よって、データについてはCC0を採用するのが良い。
-
-(制作の都合上、少なくとも公開当初は、OSHWに準拠できなさそうです。)
-(生成された音楽をストリーミング配信するのですが、"今のところ"CCライセンスを付ける予定はありません。後日、もしCCを付けることになるなら、自動生成された音楽の著作物性やストリーミングでのCCの有効性などについて、ご相談する事になるかもしれません。)
 ```
 
-######生体電位データ公開におけるCC0採用について
-公開対象である生体電位データは著作物に該当しないと考えられる。よって、著作権にもとづくライセンスが有効であるとは限らない。しかし、CC0を用いることで、パブリックドメインに近いかたちでの利用許諾の意思表明を行うことができる。よって、CC0を採用することとした。
+```
 生体電位データは、YCAM Interlabウェブサイトとxivelyで公開している。
+```
 
-
-
-ForestSymphony apiによるデータ取得ページでもちいるCC0のメタデータ
-apiによるデータ取得(http://interlab.ycam.jp/projects/forestsymphony/data-acquisition-by-api)用のCC0のメタデータを用意しました。
-ご利用ください。
-<p xmlns:dct="http://purl.org/dc/terms/"
-xmlns:vcard="http://www.w3.org/2001/vcard-rdf/3.0#">
-  <a rel="license"
-     href="http://creativecommons.org/publicdomain/zero/1.0/">
-    <img src="http://i.creativecommons.org/p/zero/1.0/88x31.png"
-style="border-style: none;" alt="CC0" />
-  </a>
-  <br />
-  To the extent possible under law,
-  <a rel="dct:publisher"
-     href="http://interlab.ycam.jp">
-    <span property="dct:title">YCAM InterLab</span></a>
-  has waived all copyright and related or neighboring rights to
-  <span property="dct:title">bioelectric potential data from trees in "Forest
-Symphony"</span>.
-This work is published from:
-<span property="vcard:Country" datatype="dct:ISO3166"
-      content="JP" about="http://interlab.ycam.jp">
-  Japan</span>.
-</p>
 
 
 ---
@@ -258,9 +210,9 @@ YCAMサマースクールで制作した作品の公開についての同意書
 
 ###Summary
 
-
+```
 RAMのサマリーをここに。
-
+```
 GRPContractFormを採用した。
 
 
@@ -278,8 +230,9 @@ Contract Form, Document / CC BY-SA
 
 ###Summary
 
-
+```
 GRP Contract Form のサマリーをここに。
+```
 
 
 
@@ -293,7 +246,7 @@ GRP Contract Form のサマリーをここに。
 
 ###License
 
-YCAMのプロジェクトではじめてApache License 2.0を採用した。
+YCAMのプロジェクトではじめてApache License 2.0を採用した。(ライセンス選定プロセスについては別途付録を参照のこと。)
 
 Software Code / Apache License 2.0
 
@@ -301,58 +254,19 @@ Software Code / Apache License 2.0
 
 
 ###Summary
-
-
-
-並行してGRP Contract Formの開発を行った。
-
 ```
 *Guest Research Project vol.2―ジェネレーティブ・メディアのためのコンポジション・ツール
 いずれも「Apache License 2.0（アパッチ・ライセンス）」を適用し、オープンソースプロジェクトとして公開します。Apache License 2.0は、著名なソフトウェア・ライセンスである「MIT License」と比較した場合、特許リスク(コントリビューターや他のユーザによる特許権行使)を回避する条項を含むことが特徴です。MITライセンスによって公開されたプログラムと同じように複製・改変・公開等の利用が可能であり、GPLのようなソースコードの公開義務はありません。
+
+なお、並行してGRP Contract Formの開発を行った。
 ```
-
-
-
-
-
-Apache License 2.0を採用した理由 / 特許関連条項を含むライセンスについて
-
-```
-オープンソースライセンスには、いわゆる"特許関連条項"を含むものとそうでないものがある。この"特許関連条項"は、オープンソースソフトウェアユーザの特許リスクを回避する事項を明示する。
-
-例えば、MIT License(注1)(2-Clause BSD License BSDとほぼ同じ)は非常にシンプルで自由度の高いライセンスであるが、特許リスクについての対処は特になされていない。一方で、BSDライセンスの不足部分を補って作成された(注2)Apache License 2.0(注3)は、特許への対処を定めた"特許関係条項(Patent Clause)"を第3条に含んでいる。
-
-この条項は大きく二つの部分を含む。一つは、コントリビューター(=ライセンサー)がApache Licenseが付されたコードに関する特許権を持っていた場合、ユーザー(=ライセンシー)に対してこの特許技術の使用を許可する"自動ライセンシング"(注4)である。もう一つは、ユーザ(=ライセンシー)が、このコードが特許権を侵害しているとして訴訟を起こした場合、このユーザーに対するライセンスが停止されるという"特許報復"(注4)である。つまり、実質的にユーザ(ライセンシー)の権利行使を防ぐ効果がある。
-
-こうした"特許関係事項"を含むライセンスの採用は、そうでないものの採用よりユーザにとってのリスクを大幅に削減する事ができる。また、コントリビューターが特許攻撃をしないという態度表明ともなる。
-
-GRPにおける公開ライセンスは、非コピーレフト型が望ましい。八田氏が挙げた7つの代表的な特許関連条項を含むライセンス(注4)のうち、非コピーレフト型でかつgnu.orgが使用を控えるよう勧告していないものは、Apache License2.0のみである。以上から、GRPにおいてはApahe Licenseを採用するべきと考える。
-
-
-注1  Open Source Initiative OSI - The MIT License (MIT) http://opensource.org/licenses/mit-license.php, OSG-JP The MIT License http://sourceforge.jp/projects/opensource/wiki/licenses%2FMIT_license
-
-注2 独立行政法人 情報処理推進機構 OSSライセンスの比較および利用動向ならびに係争に関する調査 調査報告書 2010, pp.31
-
-注3 Apache License, Version 2.0 http://www.apache.org/licenses/LICENSE-2.0, OSG-JP Apache License Version 2.0 http://sourceforge.jp/projects/opensource/wiki/licenses%2FApache_License_2.0,
-
-注4 八田真行 オープンソース•ソフトウェア•ライセンスにおけるソフトウェア特許と商標の扱いに関する研究, 知財紀要 2011 vol.20
-
-```
-
-
-
-ライセンス付与については以下を参照
-
-Apache2.0ライセンス付与のしかた
-https://docs.google.com/a/ycam.jp/document/d/13jNm0TxUS6qFeJoJ4YNaxVxjHLj1aw5Zi4XuunkY_RE/edit
-
 
 
 ---
 ##EyeWriter 2.0 のつくりかた (2012)
 ###License
 
-YCAMのプロジェクトではじめてCC BY-SAを採用した。
+YCAMのプロジェクトではじめてCC BY-SAを採用した。(ライセンス選定プロセスについては別途付録を参照のこと。)
 
 マニュアル / CC BY-SA
 
@@ -365,46 +279,6 @@ http://interlab.ycam.jp/projects/labact/eye-tracking-study/how-to-make-eyewriter
 ###Summary
 
 本マニュアルはYCAM(山口情報芸術センター)で2011年10月に制作公開された展覧会LabActVol1 The EyeWriterに際し、当館の教育普及事業の一環として制作されたThe Eyewriterの日本語制作マニュアルです。
-
-
-######ライセンス選定プロセス
-
-```
-[CCを利用するか?]
-
-「EyeWriter 2.0 のつくりかた」を普及させ、なるべく多くの人に利用してもらいたい。WSなどで複製して利用してもらってかまわない。使用許諾の要請があれば許諾するが、その障壁や手間を省きたい。
-公開に際しては、YCAMの成果物であることを示したい。利用者や関連する人々が作り方がYCAMの成果物であることを知ることで、新たな関係が生み出されることを期待する。また、YCAMの宣伝効果も期待する。
-普及・伝搬を促進し、許諾の障壁を除き、著作者を明示するため、CCライセンスを付すことが妥当である。
-
-
-[NDを付すか?]
-
-他の利用者に、作り方を改良して、バージョンをあげてもらいたい。より良いものが作られ、波及していけばよい。また、自由に外国語に翻訳してもらってもかまわない。
-派生物の創作を認めるため、NDを付さないのが妥当である。
-
-
-[NCを付すか?]
-
-YCAMでは当該コンテントを利用してマネタイズを行う余力がない。マネタイズできる知恵とエネルギーがある人が行えばよい。雑誌に掲載するなら、その分のコストを払える人に、やってもらえればよい。
-文化庁の出版物のように、巻末に作り方を付した印刷物を販売する、というケースも考えられる。
-よって、NCを付さないのが妥当である。
-
-
-[SAを付すか?]
-
-他の利用者が改変、変形または加工したものを公開する場合、YCAMの表示を行い、また別の者による更なる改良の余地を残したい。
-よってSAを付すのが妥当である。
-
-
-[リスクの検討]
-
-雑誌に勝手に掲載された場合、作り方のみを印刷して販売された場合 > NCの項で検討済み。
-反社会的、公序良俗に反する利用があった場合 > 現実にこのような利用がなされる可能性は大きくない。公開の結果、わずかな危険があるかもしれないが、メリットの方が大きいと考えられる。
-
-
-
-```
-
 
 
 ---

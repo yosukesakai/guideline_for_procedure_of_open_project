@@ -347,7 +347,7 @@ Each original source document (code and documentation, but excluding the LICENSE
   
   
   
-#Apache License 2.0の採用理由 / 特許関連条項を含むライセンスについて
+#Apache License 2.0を採用した理由 / 特許関連条項を含むライセンスについて
 
 
 
