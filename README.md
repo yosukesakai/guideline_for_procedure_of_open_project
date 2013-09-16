@@ -11,12 +11,12 @@ Currently Japanese Only
 
 ##Composition
 
-Main Documentは、オープン化を伴うプロジェクトを進行するための、必要事項、判断基準、注意事項を示しています。
+"Main Document"は、オープン化を伴うプロジェクトを進行するための、必要事項、判断基準、注意事項を示しています。
 
-Appendixには、ウェブサイトに必要な事項、ウェブサイト構築においてライセンスを付与する作業手順が示されています。
+"Appendix"には、ウェブサイトに必要な事項、ウェブサイト構築においてライセンスを付与する作業手順が示されています。
 Main Documentに示された工程の具体的な内容を参照できます。
 
-YCAMにおけるオープン化の試みでは、これまでのYCAMにおけるオープン化の事例を時系列でまとめています。
+"YCAMにおけるオープン化の試み(Practice in YCAM)"では、これまでのYCAMにおけるオープン化の事例を時系列でまとめています。
 先行事例として参照、比較できます。
 
 
@@ -56,7 +56,7 @@ Creative Commons License関連
 公開ガイドライン
 
 
-###YCAMにおけるオープン化の試み
+###YCAMにおけるオープン化の試み(Practice in YCAM)
 これまでのYCAMにおけるオープン化の事例をまとめています。
 
 
@@ -69,8 +69,8 @@ Creative Commons License関連
 
 ######フリーカルチャーをつくるためのガイドブック
 
-######オープンソースの育て方
-
+######オープンソースソフトウェアの育て方
+http://producingoss.com/ja/
 
 
 
@@ -85,7 +85,7 @@ Creative Commons License関連
 ###organization
 
 ######EyeBeam
-
+http://www.eyebeam.org
 
 
 
