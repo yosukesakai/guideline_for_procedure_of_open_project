@@ -9,7 +9,7 @@ Currently Japanese Only
 このドキュメントは、プロジェクトの成果をオープン化する際の手続等を示すガイドラインです。オープン化についての調査、研究の過程で得た知見のアーカイブでもあります。
 
 
-##Instruction / Structure
+##Composition
 
 Main Documentは、オープン化を伴うプロジェクトを進行するための、必要事項、判断基準、注意事項を示しています。
 
@@ -20,7 +20,7 @@ YCAMにおけるオープン化の試みでは、これまでのYCAMにおける
 先行事例として参照、比較できます。
 
 
-###Main Document
+###Main Document (Pre-Production, Production, Post-Production)
 
 研究•開発プロセスの時期を大きく3つに分けて、このガイドラインもそれぞれにあわせ、3章で構成されています。
 
@@ -49,13 +49,12 @@ YCAMにおけるオープン化の試みでは、これまでのYCAMにおける
 
 ###Appendix
 
-ApacheLicense2.0採用の理由/ライセンス付与のしかた
+ApacheLicense2.0関連
 
-Creative Commons Licenseの付与のしかた
-
-xivelyでのCC0の付与のしかた  
+Creative Commons License関連
     
-公開ウェブサイト構築のガイドライン
+公開ガイドライン
+
 
 ###YCAMにおけるオープン化の試み
 これまでのYCAMにおけるオープン化の事例をまとめています。
@@ -79,7 +78,7 @@ xivelyでのCC0の付与のしかた
 
 ###Project
 
-open source project in London
+######open source project in London
 
 
 
@@ -95,9 +94,7 @@ open source project in London
 ##Licenses and Credits  
 
 <a rel="license" href="http://creativecommons.org/licenses/by-sa/3.0/"><img alt="Creative Commons License" style="border-width:0" src="http://i.creativecommons.org/l/by-sa/3.0/88x31.png" /></a><br /> 
-<span xmlns:dct="http://purl.org/dc/terms/" href="http://purl.org/dc/dcmitype/Text" property="dct:title" rel="dct:type">Guideline_for_Procedure_of_Open_Project</span><a xmlns:cc="http://creativecommons.org/ns#" href="https://github.com/yosukesakai/Guideline_for_Procedure_of_Open_Project" property="cc:attributionName" rel="cc:attributionURL">  
-Produced by yosukesakai<br /></a>
-Guideline_for_Procedure_of_Open_Project (document except citation) is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-sa/3.0/">Creative Commons Attribution - ShareAlike 3.0 Unported License.<br />
+<span xmlns:dct="http://purl.org/dc/terms/" href="http://purl.org/dc/dcmitype/Text" property="dct:title" rel="dct:type">Guideline_for_Procedure_of_Open_Project (document except citation) </span><a xmlns:cc="http://creativecommons.org/ns#" href="https://github.com/yosukesakai/Guideline_for_Procedure_of_Open_Project" property="cc:attributionName" rel="cc:attributionURL">Produced by yosukesakai<br /></a> is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-sa/3.0/">Creative Commons Attribution - ShareAlike 3.0 Unported License.<br />
 
 
 
