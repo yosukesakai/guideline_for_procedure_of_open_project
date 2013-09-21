@@ -32,22 +32,24 @@ Main Documentに示された工程の具体的な内容を参照できます。
 
 企画立案など
 
-プロジェクトの制作作業の開始前にあたる時期です
+プロジェクトの主たる制作作業の開始前にあたる時期です
 
 ######Ⅱ.Produciton
 
 制作など
 
-プロジェクトの制作作業を行う時期です
+プロジェクトの主たる制作作業を行う時期です
 
 ######Ⅲ.Post-Produciton
 
 ウェブサイト構築など
 
-プロジェクトの制作作業の終了後にあたる時期です
+プロジェクトの主たる制作作業の終了後にあたる時期です
 
 
 ###Appendix
+Main Documentに示された工程の具体的な内容を記述しています。
+
 
 ApacheLicense2.0関連
 
@@ -89,8 +91,11 @@ http://www.eyebeam.org
 
 
 
-
 ---
+
+<!--
+
+
 ##Licenses and Credits  
 
 <a rel="license" href="http://creativecommons.org/licenses/by-sa/3.0/"><img alt="Creative Commons License" style="border-width:0" src="http://i.creativecommons.org/l/by-sa/3.0/88x31.png" /></a><br /> 
@@ -115,5 +120,6 @@ The use of images accompanying the text may be based on license agreements separ
 yosukesakai may discontinue the publication of all or parts of this text and all other contents without prior notice.
 ```
 
+-->
 
 
