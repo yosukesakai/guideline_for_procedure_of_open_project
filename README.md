@@ -3,9 +3,11 @@
 
 #Guideline for Procedure of Open Project
 
-```
+
+
 Currently Japanese Only
-```
+
+
 
 ##Project Outline
 
