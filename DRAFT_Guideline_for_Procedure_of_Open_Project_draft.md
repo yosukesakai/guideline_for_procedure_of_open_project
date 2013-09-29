@@ -547,11 +547,13 @@ Pre-Productionで定めたドキュメントを担当者が制作します。
 
 ##リファレンス
 
-GRP Contract Form (YCAM)
-https://github.com/YCAMInterlab/GRPContractForm
+- GRP Contract Form (YCAM)
 
-オープンソースソフトウェアの育て方(Fogel Karl、高木 正弘)
-http://producingoss.com/ja/
+	https://github.com/YCAMInterlab/GRPContractForm
+
+- オープンソースソフトウェアの育て方(Fogel Karl、高木 正弘)
+
+	http://producingoss.com/ja/
 
 ##他
 
