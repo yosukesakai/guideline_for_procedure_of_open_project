@@ -5,7 +5,7 @@
 
 
 
-Currently Japanese Only
+(Currently Japanese Only)
 
 
 
@@ -16,12 +16,15 @@ Currently Japanese Only
 
 ##Composition
 
-"Main Document"は、オープン化を伴うプロジェクトを進行するための、必要事項、判断基準、注意事項を示しています。
+######Main Document
+オープン化を伴うプロジェクトを進行するための、必要事項、判断基準、注意事項を示しています。
 
-"Appendix"には、ウェブサイトに必要な事項、ウェブサイト構築においてライセンスを付与する作業手順が示されています。
+######Appendix
+ウェブサイトに必要な事項、ウェブサイト構築においてライセンスを付与する作業手順などについてのドキュメントがあります。  
 Main Documentに示された工程の具体的な内容を参照できます。
 
-"YCAMにおけるオープン化の試み(Practice in YCAM)"では、これまでのYCAMにおけるオープン化の事例を時系列でまとめています。
+######OpenOrojectPractice
+これまでのYCAMにおけるオープン化の事例を時系列でまとめたドキュメントがあります。  
 先行事例として参照、比較できます。
 
 
@@ -29,7 +32,8 @@ Main Documentに示された工程の具体的な内容を参照できます。
 
 研究•開発プロセスの時期を大きく3つに分けて、このガイドラインもそれぞれにあわせ、3章で構成されています。
 
-実際には、各章に示された作業は重なり合いながら進むことが多く、この分類は意味をなさないように思えるかもしれません。
+---
+>実際には、各章に示された作業は重なり合いながら進むことが多く、この分類は意味をなさないように思えるかもしれません。
 しかし、これは手続の順序を示すものでもあり、前後関係を把握することは、無理のないプロジェクト進行に繋がります。
 たとえば、ウェブサイト構築に必要な費用や工期を、企画書に記載した方が作業を進めやすいことなどを理解できるでしょう。
 
@@ -56,16 +60,17 @@ Main Documentに示された工程の具体的な内容を参照できます。
 Main Documentに示された工程の具体的な内容を記述しています。
 
 
-ApacheLicense2.0関連
+[ApacheLicense2.0関連](https://github.com/yosukesakai/guideline_for_procedure_of_open_project/blob/master/Appendix/ApacheLicense2.0ライセンス付与のしかた:採用の理由.md)
 
-Creative Commons License関連
+[CreativeCommonsLicense関連](https://github.com/yosukesakai/guideline_for_procedure_of_open_project/blob/master/Appendix/CCLicenseライセンス付与のしかた:採用の理由.md)
     
-公開ガイドライン
+[YCAMサマースクールにおける同意書](https://github.com/yosukesakai/guideline_for_procedure_of_open_project/blob/master/Appendix/YCAMサマースクールにおける同意書について.md)
 
 
-###Open Oroject Practice in YCAM
+###Open Project Practice in YCAM
 これまでのYCAMにおけるオープン化の事例をまとめています。
 
+[Open_Project_Practice_in_YCAM](https://github.com/yosukesakai/guideline_for_procedure_of_open_project/blob/master/OpenOrojectPractice/Open_Oroject_Practice_in_YCAM.md)
 
 ---   
 ##Reference
@@ -90,6 +95,9 @@ http://producingoss.com/ja/
 
 
 ###organization
+
+######YCAM
+http://www.ycam.jp
 
 ######EyeBeam
 http://www.eyebeam.org

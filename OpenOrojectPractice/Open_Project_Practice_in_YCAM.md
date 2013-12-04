@@ -184,7 +184,7 @@ Guest Research Project vol.2―ジェネレーティブ・メディアのため�
 これらに「Apache License 2.0（アパッチ・ライセンス）」を適用し、オープンソースプロジェクトとして公開しました。Apache License 2.0は、著名なソフトウェア・ライセンスである「MIT License」と比較した場合、特許リスク(コントリビューターや他のユーザによる特許権行使)を回避する条項を含むことが特徴です。MITライセンスによって公開されたプログラムと同じように複製・改変・公開等の利用が可能であり、GPLのようなソースコードの公開義務はありません。
 ```
 
-並行してGRP Contract Formの開発を行い、GRP Contract Formのプロトタイプを採用した。
+並行してGRP Contract Formの開発を行い、GRP Contract Formを採用した。
 
 
 
