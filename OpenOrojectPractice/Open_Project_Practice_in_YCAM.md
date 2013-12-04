@@ -101,15 +101,15 @@ http://yschool.ycam.jp
 
 
 ---
-##RAM (2013)
+##Reactor for Awareness in Motion (RAM) (2013)
 
 ###Object and License
 
-Software /
+Software / Apache License 2.0, GPL
 
-Hardware / 
+Hardware / CC
 
-Document / 
+Document / CC
 
 ###Website
 
