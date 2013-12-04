@@ -26,7 +26,7 @@ appendixのリンクをつける。
 
 制作の段階に応じて、各章に示されたオープン化に必要なプロセスを行うことで、無理なく効果的なオープン化ができるよう、本ガイドラインは書かれています。Pre-Producitonでオープン化に必要な要素をさだめ、これと齟齬が無いようにProductionをすすめ、Post-Productionでオープン化を実現する作業を行うという流れになっています。(いいかえるなら、Pre-Production>要求定義、Post-Production>実装にあたります。)
 
-オープン化において各要素を設定できる範囲は様々で、あまりに多くの選択肢があることがあるため、はじめは戸惑うことがあるかもしれません。(たとえばオープンソース・ソフトウェア用のライセンスは**以上あります。)YCAMでのオープン化実績をもとに、公共のアートセンター向けの、各要素の設定例を[AC]として示しました。なお、YCAMにおけるオープン化事例は"OpenProjectPractice"にまとめています。適宜参照ください。
+オープン化において各要素を設定できる範囲は様々で、あまりに多くの選択肢があることがあるため、はじめは戸惑うことがあるかもしれません。(たとえばオープンソース・ソフトウェア用のライセンスは50以上あります。)YCAMでのオープン化の実績をもとに、公共のアートセンター向けの、各要素の設定例を[AC]として示しました。なお、YCAMにおけるオープン化事例は"OpenProjectPractice"にまとめています。適宜参照ください。
 
 事例調査から導かれた、オープン化における重要な点を"point"として示しています。これらはさまざまな成功事例から導いたものです。適合するようにアレンジするのが良いでしょう。(各要素の判断基準としても良いかもしれません。)
 
@@ -433,9 +433,9 @@ Pre-Productionで定めたライセンスを法的な有効にするため、適
 
 ライセンス|制作・実装方法
 ---- | -----------
-ApacheLicense2.0|参照:Appendix/ApacheLicense2.0ライセンス付与のしかた/採用の理由
-CCライセンス|参照:Appendix/CCLicenseライセンス付与のしかた/採用の理由
-CC0|参照:Appendix/CCLicenseライセンス付与のしかた/採用の理由
+ApacheLicense2.0|参照:[Appendix/ApacheLicense2.0ライセンス付与のしかた/採用の理由](https://github.com/yosukesakai/guideline_for_procedure_of_open_project/blob/master/Appendix/ApacheLicense2.0ライセンス付与のしかた:採用の理由.md)
+CCライセンス|参照:[Appendix/CCLicenseライセンス付与のしかた/採用の理由](https://github.com/yosukesakai/guideline_for_procedure_of_open_project/blob/master/Appendix/CCLicenseライセンス付与のしかた:採用の理由.md)
+CC0|参照:[Appendix/YCAMサマースクールにおける同意書](https://github.com/yosukesakai/guideline_for_procedure_of_open_project/blob/master/Appendix/YCAMサマースクールにおける同意書について.md)
 
 必要に応じて生成したライセンス・コードのうち、オープン化対象や著作者、製作者の表記をアレンジします。(たとえば作品制作のクレジット表記を用いたい場合など。ex.GRPContractFormのライセンス表記)
 
