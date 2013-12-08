@@ -18,21 +18,16 @@
 ###Object and License
 
 
-|名前  |色      |個数|
-|------|--------|----|
-|りんご|赤      |   8|
-|みかん|オレンジ|  32|
+|Object |Object|License |  
+|------|--------|----|  
+|ハードウェア制作情報 注1|基板の設計図(pdf)| CC BY-SA|
+||基板の設計図(pdf) | CC BY-SA  |
+||基板の設計図(Gerber Format File) | CC BY-SA|
+||部品リスト | CC BY-SA|
+|ソフトウェア 注2|ハードウェア制御ソフトウェア(Arduinoのスケッチ)、 | Apache License 2.0|
+||生体電位データを扱う基礎的なソフトウェア(oF・Processing・MaxMSPのサンプル用コード)| Apache License 2.0|
+|生体電位データ 注3|樹木から得られた生体電位データ | CC0|
 
-
-Object|Object|License  
----- | -----------  
-ハードウェア制作情報 注1|基板の設計図(pdf) | CC BY-SA   
-|基板の設計図(pdf) | CC BY-SA  
-|基板の設計図(Gerber Format File) | CC BY-SA|
-|部品リスト | CC BY-SA|
-ソフトウェア 注2|ハードウェア制御ソフトウェア(Arduinoのスケッチ)、 | Apache License 2.0
-|生体電位データを扱う基礎的なソフトウェア(oF・Processing・MaxMSPのサンプル用コード)| Apache License 2.0|
-生体電位データ 注3|樹木から得られた生体電位データ | CC0
 
 注1 設計図の一部がpdf形式であるため、OSHW Defenitionには適合しない。  
 注2 作品で使用する音響生成ソフトウェアは公開対象に含まない。  
