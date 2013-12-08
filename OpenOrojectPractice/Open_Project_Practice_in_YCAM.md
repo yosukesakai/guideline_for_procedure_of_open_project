@@ -18,9 +18,9 @@
 ###Object and License
 
 
-Object|Object|License
----- | -----------
-ハードウェア制作情報 注1|基板の設計図(pdf) | CC BY-SA  
+Object|Object|License  
+---- | -----------  
+ハードウェア制作情報 注1|基板の設計図(pdf) | CC BY-SA   
 |基板の設計図(pdf) | CC BY-SA  
 |基板の設計図(Gerber Format File) | CC BY-SA|
 |部品リスト | CC BY-SA|
