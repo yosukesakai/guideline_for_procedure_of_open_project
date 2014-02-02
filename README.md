@@ -70,7 +70,7 @@ Main Documentに示された工程の具体的な内容を記述しています�
 ###Open Project Practice in YCAM
 これまでのYCAMにおけるオープン化の事例をまとめています。
 
-[Open_Project_Practice_in_YCAM](https://github.com/yosukesakai/guideline_for_procedure_of_open_project/blob/master/OpenOrojectPractice/Open_Project_Practice_in_YCAM.md)
+[Open_Project_Practice_in_YCAM](https://github.com/yosukesakai/guideline_for_procedure_of_open_project/wiki/Open-Project-Practice-in-YCAM)
 
 ---   
 ##Reference
