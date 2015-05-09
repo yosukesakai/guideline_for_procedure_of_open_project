@@ -41,10 +41,10 @@
 
 
 
-##3.ApacheLicense2.0が適用されていることをトッページに示す
+##3.ApacheLicense2.0が適用されていることをトップページに示す
 
 
-さいごに、NOTICEファイルやREADMEファイルがある場合(たぶんあるでしょう)、これにも記載します。
+さいごに、プロジェクトのトップページや、README.md(GitHubの場合)に、このライセンスが適用されていることを記載します。
 
 ```
 *** by xxx, yyy, and zzz is licensed under the Apache License, Version2.0
