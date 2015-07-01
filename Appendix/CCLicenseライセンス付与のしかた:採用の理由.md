@@ -34,7 +34,7 @@ BY-SA(YCAMでのデフォルト)のコードを生成するときは、以下を
 
 
 メタデータの例
-(GRPContractFormでもちいたCC0のメタデータ)
+(GRPContractFormでもちいたメタデータ)
 
 
 ```
