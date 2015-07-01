@@ -52,9 +52,6 @@ GRP Contract Form is licensed under a <a rel="license" href="http://creativecomm
 さいごに、NOTICEファイルやREADMEファイルがある場合(たぶんあるでしょう)、これにもライセンス・コードを埋め込みます。
 
 もしhtmlを受け付けない場合は、同じ内容を平文で書いても良いでしょう。
-```
-
-```
 
 この表記自体は、ライセンスの対象が明確でないので、有効性は十分ではありません。しかし、プロジェクトを紹介するウェブサイトのトップページや、githubのREADMEに記載することで、このプロジェクトのコードにどんなライセンスが適用されているのかが一見してわかるようになります。
 
@@ -64,7 +61,7 @@ GRP Contract Form is licensed under a <a rel="license" href="http://creativecomm
 
 ---
 #CC0ライセンス適用のしかた
-1.Creative Commonsのウェブサイトでライセンス・コード生成する
+##1.Creative Commonsのウェブサイトでライセンス・コード生成する
 
 必要に応じてアレンジします。
 生成したライセンスコードには、検索エンジンが認識できるメタデータが埋め込まれています。
@@ -73,7 +70,7 @@ GRP Contract Form is licensed under a <a rel="license" href="http://creativecomm
 
 http://creativecommons.org/choose/zero/
 
-2.生成したライセンス・コードをコンテントを掲載したウェブサイトに埋め込む。
+##2.生成したライセンス・コードをコンテントを掲載したウェブサイトに埋め込む。
 
 
 メタデータの例(ForestSymphony apiによるデータ取得ページでもちいたCC0のメタデータ)
@@ -101,6 +98,19 @@ http://creativecommons.org/choose/zero/
 >  japan</span>.
 ></p>
 ```
+
+##3.Creative Commons Licenseが適用されていることをトッページに示す
+
+さいごに、NOTICEファイルやREADMEファイルがある場合(たぶんあるでしょう)、これにもライセンス・コードを埋め込みます。
+
+もしhtmlを受け付けない場合は、同じ内容を平文で書いても良いでしょう。
+
+この表記自体は、ライセンスの対象が明確でないので、有効性は十分ではありません。しかし、プロジェクトを紹介するウェブサイトのトップページや、githubのREADMEに記載することで、このプロジェクトのコードにどんなライセンスが適用されているのかが一見してわかるようになります。
+
+あくまで参考、補助的な表記として掲載するのが良いでしょう。実質的なライセンス効力があるのは、各コンテンツのページに記載されたライセンス表記である、と考えるべきででしょう。
+
+
+
 
 
 ---
