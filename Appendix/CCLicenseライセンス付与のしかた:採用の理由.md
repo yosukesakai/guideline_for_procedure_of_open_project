@@ -60,8 +60,12 @@ GRP Contract Form is licensed under a <a rel="license" href="http://creativecomm
 ```
 e.g.
 HIVE http://hive.ntticc.or.jp  
+
 すべてのページのテンプレート(のページ末尾)に、ウェブサイトに掲載されたコンテンツにCCライセンスが適用されていることが表記されています。  
 各コンテンツのページに、法的に有効なCCライセンスが示されています。  
+
+大友良英　音楽と美術のあいだクロージング・トーク【前半】
+http://hive.ntticc.or.jp/contents/artist_talk/20150222
 ```
 
 ---
