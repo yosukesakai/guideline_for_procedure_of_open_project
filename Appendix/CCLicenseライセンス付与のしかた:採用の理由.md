@@ -1,9 +1,9 @@
 
 ---
-#CCライセンス付与のしかた
+# CCライセンス付与のしかた
 以下の1-3の作業を行って下さい。
 
-##1.Creative Commonsのウェブサイトでライセンス・コード生成する
+## 1.Creative Commonsのウェブサイトでライセンス・コード生成する
 
 プロジェクトごとにライセンス・コードを、下記ウェブサイトで生成します。
 
@@ -28,7 +28,7 @@ BY-SA(YCAMでのデフォルト)のコードを生成するときは、以下を
 
 
 
-##2.生成したライセンス・コードをコンテンツを掲載したウェブサイトに埋め込む
+## 2.生成したライセンス・コードをコンテンツを掲載したウェブサイトに埋め込む
 
 ライセンスが適用されるコンテンツが掲載されているそれぞれのページに(それぞれのページでライセンス・コードがレンダリングされて表示されるように)、ライセンス・コードを埋め込みます。
 
@@ -47,7 +47,7 @@ Supported by Dominick Chen (Creative Commons Japan)<br /></a>
 GRP Contract Form is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-sa/3.0/">Creative Commons Attribution - ShareAlike 3.0 Unported License.<br />
 ```
 
-##3.Creative Commons Licenseが適用されていることをトッページに示す
+## 3.Creative Commons Licenseが適用されていることをトッページに示す
 
 さいごに、プロジェクトのウェブサイトのトップページや、NOTICEファイルやREADME.mdファイルがあるなら(たぶんあるでしょう)こうしたファイルにも、ライセンス・コードを埋め込みます。
 
@@ -69,7 +69,7 @@ http://hive.ntticc.or.jp/contents/artist_talk/20150222
 ```
 
 ---
-#CC0ライセンス適用のしかた
+# CC0ライセンス適用のしかた
 ##1.Creative Commonsのウェブサイトでライセンス・コード生成する
 
 プロジェクトごとにライセンス・コードを、下記ウェブサイトで生成します。  
@@ -81,7 +81,7 @@ http://creativecommons.org/choose/zero/
 
 
 
-##2.生成したライセンス・コードをコンテントを掲載したウェブサイトに埋め込む。
+## 2.生成したライセンス・コードをコンテントを掲載したウェブサイトに埋め込む。
 
 ライセンスが適用されるコンテンツが掲載されているそれぞれのページに(それぞれのページでライセンス・コードがレンダリングされて表示されるように)、ライセンス・コードを埋め込みます。  
 
@@ -173,9 +173,9 @@ http://interlab.ycam.jp/en/projects/forestsymphony
 ```
 
 
-###参考
+### 参考
 
-######xivelyから送られるのデータのヘッダを確認する方法
+###### xivelyから送られるのデータのヘッダを確認する方法
 
 ```
 xivelyのサポート曰く、"On each outgoing request via our API we send a header
@@ -191,7 +191,7 @@ https://api.xively.com/v2/feeds/176655154
 CC0の表記を確認できる。
 ```
 
-######xivelyではCC0を採用した (2013)
+###### xivelyではCC0を採用した (2013)
 デバイス、データをpublicにした場合、CC0が採用される。
 
 ```
@@ -213,7 +213,7 @@ When a device is public, the device and its data are made available under the te
 
 ```
 
-######xivelyに対するCC0についての問い合わせに対する返信 (抜粋)
+###### xivelyに対するCC0についての問い合わせに対する返信 (抜粋)
 
 ```
 Subject: concerned in data of Public Device under CC0
@@ -229,7 +229,7 @@ to the license for the data.
 ```
   
 ---  
-#CC BY-SA 選定プロセス
+# CC BY-SA 選定プロセス
 
 ```
 [CCを利用するか?]
@@ -269,7 +269,7 @@ YCAMでは当該コンテントを利用してマネタイズを行う余力が�
 
 
 ---  
-#CC0 選定プロセス  
+# CC0 選定プロセス  
 
 ```
 [CC0とは]
@@ -304,7 +304,7 @@ Guideline_for_Procedure_of_Open_Project (document) is licensed under a <a rel="l
 
 
 
-##Disclaimer
+## Disclaimer
 ```
 yosukesakai makes no guarantees whatsoever related to this text.
 The persons involved in the creation/operation of this website (including other users) take no responsibility regarding 

@@ -1,12 +1,12 @@
 
 ---
-#ApacheLicense2.0のライセンス付与のしかた
+# ApacheLicense2.0のライセンス付与のしかた
 
 
 以下の1-3の作業を行って下さい。
 
 
-##1.以下のテキストをソースコードなどに示す
+## 1.以下のテキストをソースコードなどに示す
 
 ソースコードのファイルが複数ある場合は、全てのファイルのコードの冒頭に記載します。
 
@@ -29,7 +29,7 @@
 
 
 
-##2.LICENSEファイルを同梱する
+## 2.LICENSEファイルを同梱する
 
 配布するファイルが入ったフォルダの、最上位階層(トップディレクトリ)に、以下のファイルを置きます。
  
@@ -41,7 +41,7 @@
 
 
 
-##3.ApacheLicense2.0が適用されていることをトップページに示す
+## 3.ApacheLicense2.0が適用されていることをトップページに示す
 
 
 さいごに、プロジェクトのトップページや、README.md(GitHubの場合)に、このライセンスが適用されていることを記載します。
@@ -57,7 +57,7 @@
 
 
 ---
-###参考
+### 参考
 ```
 方法について示した既存の文書が、ふたつあります。
 
@@ -70,7 +70,7 @@ Apache Licenseの適用方法が、いろいろなウェブサイトでコメン
 ```
 
 
-###注1 Apache Licenseの適用の方法 (ライセンス原文末尾部分より引用)
+### 注1 Apache Licenseの適用の方法 (ライセンス原文末尾部分より引用)
 
 ```
 (英文)
@@ -176,7 +176,7 @@ Guideline_for_Procedure_of_Open_Project (document) is licensed under a <a rel="l
 
 
 
-##Disclaimer
+## Disclaimer
 ```
 yosukesakai makes no guarantees whatsoever related to this text.
 The persons involved in the creation/operation of this website (including other users) take no responsibility regarding 
