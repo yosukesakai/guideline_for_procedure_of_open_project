@@ -2,16 +2,28 @@
 
 
 # Guideline for Procedure of Open Project
+  
+  
+   
+   
+移行しました >>  
+  
+[YCAMInterlab/OpenSharingGuideline
+](https://github.com/YCAMInterlab/OpenSharingGuideline)    
+  
+  
+  
+---
 
-
-
+  
+  
 (Currently Japanese Only)
 
 
 
 ## Project Outline
 
-このドキュメントは、プロジェクトの成果をオープン化する際の手続等を示すガイドラインです。オープン化についての調査、研究の過程で得た知見のアーカイブでもあります。
+このドキュメントは、プロジェクトの成果をオープン化する際の手続等を示すガイドラインです。オープン化についての調査、研究の過程で得た知見のアーカイブでもあります。  
 
 
 ## Composition
